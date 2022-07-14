@@ -1,0 +1,741 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+html,body{
+	height: 100%;
+}
+.clear{
+	clear: both;
+}
+.center{
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 1280px;
+}
+header{
+	background-color: #000;
+	width: 100%;
+	height: 215vh;
+}
+header img{
+	width: 260px;
+	height: 270px;
+	float: left;
+	margin-top: 60px;
+	cursor: pointer;
+}
+header h1{
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 55px;
+    color: #ff0000;
+    letter-spacing: 2px;
+    width: 71%;
+	float: right;
+    text-align: center;
+	margin-top: 120px;
+}
+.titulo-chamada{
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 300;
+}
+.comparacao{
+	width: 100%;
+	padding: 0 3%;
+	display: inline-block;
+}
+.coach{
+	width:100%;
+	height: 500px;
+	margin-top: 30px;
+}
+.william{
+	width:100%;
+	height: 500px;
+	margin-top: 30px;
+}
+.box{
+	width: 100%;
+	height: 570px;
+	display: inline-block;
+}
+.box-coach{
+	width: 43%;
+	height: 570px;
+	float: left;
+}
+.box-william{
+	width: 43%;
+	height: 570px;
+	float: right;
+}
+.box-coach  p{
+	color: white;
+
+	text-align: center;
+}
+.box-william p{
+	color: white;
+	text-align: center;
+}
+.comparacao .primeiro-p{
+	margin-top: 25px;
+}
+.comparacao p{
+	text-align: justify;
+	color: #fff;
+}
+.row{
+	text-align: center;
+	margin-top: 55px;
+}
+[class*=btn]:hover, [class*=btn]:hover ~ [class*=btn] {
+    background-color:green;
+}
+button{
+	width: 35%;
+	color: #fff;
+	height: 55px;
+	background-color: red;
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+	font-size: 20px;
+	border: 0;
+	cursor: pointer;
+}
+button a{
+	text-decoration: none;
+	color: #fff;
+}
+section.chamada{
+	width: 100%;
+	background-color: #ccc;
+	text-align: center;
+	display: inline-block;
+}
+.chamada h1{
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #ff0000;
+    width: 90%;
+	margin: 10px auto;
+    text-align: center;
+}
+.chamada p{
+	font-size: 20px;
+	color: #000;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+.video iframe{
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+section.apresentacao{
+	width: 100%;
+	height: 140vh;
+	background: #fff;
+	display: inline-block;
+}
+.oque-e, .para{
+	float: left;
+	width: 33.3%; 
+	position: relative;
+	padding: 10% 2%;
+}
+.oque-e h2{
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #ff0000;
+    width:100%;
+	margin: 0px auto;
+    text-align: center;
+}
+.para h2{
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #ff0000;
+    width:100%;
+	margin: 0px auto;
+    text-align: center;
+}
+.oque-e p{
+	font-size: 19px;
+	color: #000;
+	margin-top: 30px;
+}
+.para p{
+	font-size: 19px;
+	color: #000;
+	margin-top: 30px;
+}
+.img-centro img{
+	float: left;
+	width: 33.3%;
+	position: relative;
+	padding-top: 4%;
+}
+.w50{
+	float: left;
+	width: 50%;
+	padding: 0 20px;
+	margin: 30px 0;
+}
+.preparamos{
+	width: 100%;
+}
+.preparamos h2{
+	display: inline-block;
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #ff0000;
+	font-weight: bold;
+    width:100%;
+	margin: 0 auto;
+    text-align: center;
+}
+.um{
+	padding: 0 2%;
+}
+.um h3{
+	font-size: 23px;
+	color: #000;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.um li{
+	font-size:17px ;
+	line-height: 40px;
+}
+ul li span{
+	font-size: 19px;
+	color: #000;
+	font-weight: bold;
+}
+.dois{
+	padding: 0 2%;
+}
+.dois h3{
+	font-size: 23px;
+	color: #000;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+.dois p{
+	font-size:17px ;
+}
+section.aulas{
+	width: 100%;
+	
+	background-color: #ccc;
+}
+.w60{
+	float: left;
+	width: 60%;
+	padding: 0 20px;
+	margin: 30px 0;
+}
+.aulas h1{
+	display: inline-block;
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ff0000;
+	font-weight: bold;
+    width:100%;
+	padding: 20px 0;
+	margin: 20px auto;
+    text-align: center;
+}
+.w60 img{
+	width: 100%;
+	height: 500px;
+	margin-top: 100px;
+	display: inline-block;
+}
+.w40{
+	float: left;
+	width: 40%;
+	padding: 0 20px;
+	margin: 30px 0;
+}
+.w40 ul{
+	margin-top: -40px;
+	list-style-type: circle;
+}
+.w40 ul li{
+	font-size:18px ;
+	line-height: 40px;
+}
+section{
+	width: 100%;
+	background-color: #000;
+}
+section.mosaico h1{
+	display: inline-block;
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #b8a11f;
+	font-weight: bold;
+    width:100%;
+	padding: 20px 0;
+	margin: 20px auto;
+    text-align: center;
+}
+.flex{
+	display: flex;
+}
+.img-flex{
+	height: 360px;
+	width: 40%;
+	background-size: cover;
+	background-position: center;
+}
+.img-flex-2{
+	height: 360px;
+	width: 40%;
+	background-size: cover;
+	background-position: center;
+}
+.text-flex{
+	width: 60%;
+	padding:90px 70px;
+	color: #fff;
+}
+.text-flex ul li{
+	font-size:20px ;
+	line-height: 35px;
+}
+.inter{
+	padding-left: 5%;
+}
+section.treinadores{
+	width: 100%;
+	height: 175vh;
+	display: inline-block;
+	background-color: #fff;
+}
+.treinadores h1{
+	display: inline-block;
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ff0000;
+	font-weight: bold;
+    width:100%;
+	padding: 20px 0;
+	margin: 20px auto;
+    text-align: center;
+}
+.mestres{
+	float: left;
+	width: 24.5%;
+	padding: 0 20px;
+	margin: 30px 0;
+}
+.mestres h5{
+	display: inline-block;
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #ff0000;
+	font-weight: bold;
+    width:100%;
+	padding: 20px 0;
+	margin: 0px auto;
+    text-align: center;
+}
+.ultima-img{
+	width: 100%;
+	margin-top: -13px;
+	display: inline-block;
+}
+.ultima-img img{
+	width: 100%;
+	height: auto;
+}
+section.voce-deseja{
+	width: 100%;
+	background-color: #fff;
+	display: inline-block;
+}
+.voce-deseja h1{
+	display: inline-block;
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ff0000;
+	font-weight: bold;
+    width:100%;
+	padding: 20px 0;
+	margin: 20px auto;
+    text-align: center;
+}
+.voce-deseja ul li{
+	font-size:17px ;
+	line-height: 30px;
+}
+.voce-deseja p span{
+	font-size: 19px;
+	color: #000;
+	font-weight: bold;
+}
+ul.inside{
+	list-style-type: square;
+}
+footer{
+	width: 100%;
+	height: 30vh;
+    background-color: #1c1c1c;
+	display: inline-block;
+}
+.aviso{
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+	padding: 2% 5%;
+}
+.apoio .img{
+	width: 300px;
+	height: 45px;
+	text-align: center;
+	margin: 20px auto;
+	background-color: red;
+}
+@media screen and (max-width: 1290px){
+	header{
+		height: auto;
+	}
+}
+@media screen and (max-width: 978px){
+	header{
+		margin: 0 auto;
+		text-align: center;
+	}
+	header img{
+		text-align: center;
+		margin-top:40px;
+		float: none;
+		width:50% ;
+		height: auto;
+	}
+	header h1{
+		font-size: 55px;
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-top: 20px;
+		letter-spacing: 0;
+	}
+	.titulo-chamada{
+		padding: 8px;
+		margin:0 auto ;
+		width: 100%;
+		font-size: 16px;
+		font-weight: 300;
+	}
+	.coach{
+		width:100%;
+		height: 800px;
+		margin-top: 30px;
+	}
+	.william{
+		width:100%;
+		height: 800px;
+		margin-top: 30px;
+	}
+	.box-coach{
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+	.box-william{
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+	button{
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	section.chamada{
+		height: auto;
+		margin: 0 auto;
+	}
+	.video iframe{
+		height: 600px;
+		width: 100%;
+		height: 550px;
+		margin:0 auto;
+		padding: 0 5%;
+		display: inline-block;
+	}
+	section.aprentacao{
+		height: auto;
+		margin: 0 auto;
+	}
+	.oque-e, .para{
+		float: none;
+		width: 100%;
+	}
+	.oque-e h2{
+		text-align: justify;
+		margin-top: -20px;
+	}
+	.para h2{
+		text-align: justify;
+		margin-top: -100px;
+	}
+	.oque-e p{
+		font-size: 19px;
+		color: #000;
+		margin-top: 10px;
+	}
+	.para p{
+		font-size: 19px;
+		color: #000;
+		margin-top: 10px;
+	}
+	.img-centro img{
+		float: none;
+		width: 100%;
+		padding:10% 15%;
+		margin-top: -100px;
+		text-align: center;
+	}
+	.w50{
+		float: none;
+		width: 100%;
+	}
+	.preparamos{
+		width: 100%;
+	}
+	.um{
+		padding: 0 2%;
+	}
+	section.aulas{
+		height:auto ;
+		margin: 0 auto;
+	}
+	.w60{
+		float: none;
+		width: 100%;
+		padding: 0 2%;
+	}
+	.aulas h1{
+		font-weight: 800;
+		font-size: 30px;
+	}
+	.w60 img{
+		width: 100%;
+		height: auto;
+		margin-top: 0;
+	}
+	.w40{
+		float: auto;
+		width: 100%;
+		padding: 0 2%;
+	}
+	.w40 ul{
+		margin-top: 0;
+	}
+	.flex{
+		display: block;
+	}
+	.img-flex{
+		width: 100%;
+		padding-top: 60%;
+	}
+	.img-flex-2{
+		width: 100%;
+		padding-top: 60%;
+	}
+	.text-flex{
+		width: 100%;
+		text-align: left;
+		display: block;
+		margin-left: 0;
+	}
+	section.treinadores{
+		height: auto;
+		margin: 0 auto;
+	}
+	.mestres{
+		float: left;
+		width: 50%;
+		padding: 0 20px;
+		margin: 30px 0;
+	}
+	.treinadores h1{
+		font-size: 35px;
+	}
+	ul.inside{
+		padding-left: 3%;
+	}
+	footer{
+		height: auto;
+	}
+	.img{
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 768px){
+	header img{
+		text-align: center;
+		margin-top:40px;
+		float: none;
+		width:40% ;
+		height: auto;
+	}
+	header h1{
+		font-size: 30px;
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-top: 00px;
+	}
+	.coach{
+		width:100%;
+		height: 650px;
+		margin-top: 30px;
+	}
+	.william{
+		width:100%;
+		height: 650px;
+		margin-top: 30px;
+	}
+	.titul-chamda{
+		font-size: 13px;
+	}
+	section.chamada{
+		padding: 50px 0;
+	}
+	.chamada h1{
+		font-weight: 800;
+		font-size: 30px;
+		width: 100%;
+		margin-top: -15px;
+	}
+	.chamada p{
+		font-size: 15px;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.video iframe{
+		height: 400px;
+	}
+	.treinadores h1{
+		font-size: 30px;
+	}
+	.voce-deseja h1{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 695px){
+	header img{
+		text-align: center;
+		margin-top:40px;
+		float: none;
+		width:60% ;
+		height: auto;
+	}
+	header h1{
+		font-size: 35px;
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-top: 00px;
+	}
+	button{
+		width: 70%;
+	}
+	.video iframe{
+		height: 350px;
+	}
+	.um h3{
+		font-size: 19px;
+		
+	}
+	.dois h3{
+		font-size: 19px;
+	}
+	.um ul{
+		margin-left: 10px;
+	}
+	.oque-e h2{
+		text-align: center;
+	}
+	.para h2{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.treinadores h1{
+		font-size: 25px;
+	}
+	.voce-deseja h1{
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 505px){
+	button{
+		width: 90%;
+	}
+	.video iframe{
+		height: 300px;
+	}
+	.treinadores h1{
+		font-size: 20px;
+	}
+	.voce-deseja h1{
+		font-size: 20px;
+	}
+}
